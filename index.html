@@ -15,7 +15,12 @@
             margin: 40px auto;
             text-align: center;
         }
-
+        .container-fluid{
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding-top: 2cm;
+        }
     </style>
 </head>
 
@@ -28,24 +33,25 @@
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">Darkcandy</a>
+            <a class="navbar-brand" href="#" style="font-size: xx-large">Darkcandy</a>
         </div>
         <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Application</a></li>
-            <li><a href="#">Artwork</a></li>
+            <li><a href="#" style="font-size: xx-large">Home</a></li>
+            <li><a href="#" style="font-size: xx-large">About Me</a></li>
+            <li><a href="#" style="font-size: xx-large">Application</a></li>
+            <li><a href="#" style="font-size: xx-large">Artwork</a></li>
         </ul>
     </div>
 </nav>
 
-<div class="container" style="margin-left:50px;margin-top:30px">
+<div class="container-fluid">
     <div class="row">
         <div class="col-sm-4">
             <div class="card" style="width:400px">
-                <img class="img-rounded" src="src/clemmy.jpg" alt="Card image" style="width:60%">
+                <div class="text-center">
+                <img class="img-rounded card-img-top" src="src/clemmy.jpg" alt="Card image" style="width:60%">
                 <div class="card-body">
-                    <h4 class="card-title">Clemmy Liao</h4>
+                    <h4 class="card-title" >Clemmy Liao</h4>
                     <p class="card-text">Love to try new things.</p>
                     <a href="https://www.linkedin.com/in/clemmy-liao-a21184182/" title="LinkedIn" class="btn btn-linkedin btn-lg">
                         <i class="fa fa-linkedin fa-fw"></i>
@@ -56,11 +62,8 @@
             </div>
             <div>
             </div>
-
+            </div>
         </div>
     </div>
 </div>
-
-
-
 </body>
